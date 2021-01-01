@@ -3,7 +3,7 @@ import { Dimensions, Modal, Share } from 'react-native';
 import {Container, Header, Content, Body, Left, Icon, Right, Title, Button} from 'native-base';
 import WebView from 'react-native-webview';
 
-const webViewHeight = Dimensions.get('window').height - 56;
+const webViewHeight = Dimensions.get('window').height - 200;
 
 // create a component
 class ModalComponent extends Component {
